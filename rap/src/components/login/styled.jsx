@@ -1,13 +1,15 @@
 import styled from "styled-components";
+import Plaza from "../img/H1H65gatEg_1256x620.jpg";
 
 export const Fondo = styled.div`
   width: 100%;
   height: 100%;
 `;
 export const Container = styled.div`
-  background-image: url(https://i.pinimg.com/originals/12/10/af/1210af59c277c155e2fc7cce6d9703bd.png);
+  background-image: url(${Plaza});
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 100%;
   display: flex;
@@ -15,7 +17,7 @@ export const Container = styled.div`
   justify-content: left;
 `;
 export const ContainerForm = styled.div`
-  background-color: #E4E2DD;
+  background-color: #2b2a2a66;
   width: 27%;
   height: 100%;
   display: flex;
@@ -24,23 +26,12 @@ export const ContainerForm = styled.div`
 `;
 export const Formulario = styled.form`
   width: 90%;
-  height: 100%;
+  height: 70%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
 `;
-export const ContainerImg = styled.div`
-  width: 100%;
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-`;
-export const Imagen = styled.img`
-  border-radius: 10px;
-  width: 250px;
-  height: 250px;
-`;
-
 export const Texto = styled.div`
   width: 45%;
   height: 7%;

@@ -3,14 +3,11 @@ import {
   Button,
   Container,
   ContainerForm,
-  ContainerImg,
   Fondo,
   Formulario,
-  Imagen,
   Input,
   Texto,
 } from "./styled";
-import Logo from "../img/logo.gif";
 
 export const Registro = () => {
   return (
@@ -18,16 +15,14 @@ export const Registro = () => {
       <Container>
         <ContainerForm>
           <Formulario>
-            <ContainerImg>
-              <img src={Logo} type="video/gif" />
-            </ContainerImg>
             <Texto>
-              <h1>freestyle</h1>
+              <h1>Registrar</h1>
             </Texto>
-            <Input placeholder="Nombre artístico"></Input>
-            <Input placeholder="Nombre real"></Input>
-            <Input placeholder="Correo electrónico"></Input>
+            <Input placeholder="Nombre Artístico"></Input>
+            <Input placeholder="Cual es tu Categoria"></Input>
+            <Input placeholder="Correo Electrónico"></Input>
             <Input placeholder="Contraseña"></Input>
+            <Input placeholder="Confirmar contraseña"></Input>
             <Button>Registrarse</Button>
             <Texto className="direccion">
               <p>Ya tengo una cuenta</p>
