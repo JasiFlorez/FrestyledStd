@@ -96,5 +96,5 @@ export const Button = styled.button`
     font-size: 20px;
     border: solid 1px #ffffff52;
     cursor: pointer;
-
 `
+
