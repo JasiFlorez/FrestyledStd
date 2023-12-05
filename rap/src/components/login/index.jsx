@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Container,
@@ -11,7 +10,6 @@ import {
   Texto,
 } from "./styled";
 import Logo from "../img/logo.gif";
-
 export const Registro = () => {
   return (
     <Fondo>
@@ -19,18 +17,17 @@ export const Registro = () => {
         <ContainerForm>
           <Formulario>
             <ContainerImg>
-              <img src={Logo} type="video/gif" />
+              <Imagen src={Logo} type="video/gif" />
             </ContainerImg>
             <Texto>
               <h1>freestyle</h1>
             </Texto>
-            <Input placeholder="Nombre artístico"></Input>
-            <Input placeholder="Nombre real"></Input>
-            <Input placeholder="Correo electrónico"></Input>
-            <Input placeholder="Contraseña"></Input>
-            <Button>Registrarse</Button>
+            <Input placeholder="Correo electronico"></Input>
+            <Input placeholder="contraseña"></Input>
+            <Button>Inicio</Button>
             <Texto className="direccion">
-              <p>Ya tengo una cuenta</p>
+              {" "}
+              <p>ya tengo una cuenta</p>
             </Texto>
           </Formulario>
         </ContainerForm>
