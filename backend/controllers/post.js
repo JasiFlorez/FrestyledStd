@@ -7,7 +7,6 @@ export const Create_register = async (req, res) => {
             if (!nombre_artistico){
                 return res.status(422).json({message: 'Por favor llenar el nombre_artistico'})
             }
-
             if (!nombre){
                 return res.status(422).json({message: 'Por favor llenar el nombre'})
             }
