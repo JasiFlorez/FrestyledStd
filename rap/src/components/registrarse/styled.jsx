@@ -1,13 +1,9 @@
 import styled from "styled-components";
-import Plaza from "../img/H1H65gatEg_1256x620.jpg";
 export const Fondo = styled.div`
   width: 100%;
   height: 100%;
 `;
 export const Container = styled.div`
-  background-image: url(${Plaza});
-  background-repeat: no-repeat;
-  background-size: 100%;
   width: 100%;
   height: 100%;
   display: flex;
@@ -15,7 +11,7 @@ export const Container = styled.div`
   justify-content: left;
 `;
 export const ContainerForm = styled.div`
-  background-color: #2b2a2a66;
+  background-color: #2b2a2ae7;
   width: 28%;
   height: 100%;
   display: flex;

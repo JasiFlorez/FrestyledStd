@@ -1,14 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Heade, Logo, Menu, MenuItem, Nav } from "./styled";
+
 export default function Header() {
   return (
     <Heade>
       <Nav>
-        <Logo>YourLogo</Logo>
+        <Logo>En progreso...</Logo>
         <Menu>
-          <MenuItem>Home</MenuItem>
-          <MenuItem>About</MenuItem>
-          <MenuItem>Contact</MenuItem>
+          <Link to="/Login">
+            {" "}
+            <MenuItem>Inicio </MenuItem>
+          </Link>
+
+          <Link to="/register">
+            {" "}
+            <MenuItem>Registrate</MenuItem>
+          </Link>
         </Menu>
       </Nav>
     </Heade>
