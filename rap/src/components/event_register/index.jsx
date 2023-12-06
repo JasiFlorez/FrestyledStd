@@ -7,7 +7,7 @@ const EventModal = ({
   handleImageChange,
   newEvent,
 }) => (
-  <ModalBackground onClick={handleClose}>
+  <ModalBackgroundl onClick={handleClose}>
     <ModalContent onClick={(e) => e.stopPropagation()}>
       <form onSubmit={handleSubmit}>
         <input
